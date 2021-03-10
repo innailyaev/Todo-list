@@ -72,7 +72,7 @@ h1 {
     max-width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: justify;
     margin-bottom: 15px;
     border-bottom: 1px solid #777777;
@@ -84,7 +84,7 @@ h1 {
     text-decoration-color: #31b5e9;
 }
 
-#todo li button {
+#todo li .buttonRemove {
     outline: none;
     border: none;
     border-radius: 100%;
